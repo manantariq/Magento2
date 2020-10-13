@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+        <exportButton name="export_button">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="options" xsi:type="array">
+                        <item name="today_order_csv" xsi:type="array">
+                            <item name="value" xsi:type="string">today_order_csv</item>
+                            <item name="label" xsi:type="string" translate="true">Today Order CSV</item>
+                            <item name="url" xsi:type="string">localAdmin/export/todayOrderToCsv</item>
+                        </item>
+                    </item>
+                </item>
+            </argument>
+        </exportButton>
+    </listingToolbar>
+</listing>

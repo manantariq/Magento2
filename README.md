@@ -26,3 +26,5 @@ Welcome to Magento 2 installation! We're glad you chose to install Magento 2, a 
 
 *    [Installation Guide](https://devdocs.magento.com/guides/v2.3/install-gde/bk-install-guide.html).
 
+## Magento 2.4 - Custom Module Export Today Order
+add custom option into "Export" button in sales order grid to export today order in CSV.
